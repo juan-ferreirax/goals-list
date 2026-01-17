@@ -1,3 +1,3 @@
 # Goals List
 
-Aplicaçãopara listagem de metas utilizando o framework Django.
+Aplicação para listagem de metas utilizando o framework Django.
