@@ -1,32 +1,5 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <title>Document</title>
-    <link rel="SHORTCUT ICON" href="/endereco/da/imagem/icone" type="image/x-icon"/>
-    <meta charset="UTF-8">
-    <meta name="description" content="Aqui tem uma descrição do site">
-    <meta name="keywords" content="palavras, chave, relacionadas, ao, tema, do, site">
-    <meta name="author" content="Nome do autor">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-    <link rel="stylesheet" href="/web_pages/style.css"/>
-</head>
-<body>
-    <h1>This is my index page</h1>
+{% extends "learning_logs/base.html" %}
 
-    <p>This app will help learn Django</p>
-
-
-
-
-
-
-
-
-
-
-</body>
-<footer>
-
-</footer>
-
-</html>
+    {% block content %}
+        <p>This app will help learn Django</p>
+    {% endblock content %}
